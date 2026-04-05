@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>PS | Aula Prática de ML</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+    
+        <h2>ADAPTANDO UMA IA DE PREVISÃO</h2>
+        <h2>Calculadora de Calorias (IA)</h2>
+        <p>Informe os dados abaixo:</p>
+    
+        <input type="text" id="tempo" placeholder="00:00:00">
+    
+        <input type="number" id="peso" placeholder="Peso (kg)">
+        <input type="number" id="idade" placeholder="Idade">
+    
+        <select id="atividade">
+            <option value="">Selecione</option>
+            <option value="5">Caminhada leve</option>
+            <option value="7">Corrida</option>
+            <option value="8">Ciclismo</option>
+        </select>
+    
+        <select id="sexo">
+            <option value="">Selecione</option>
+            <option value="1">Masculino</option>
+            <option value="0.9">Feminino</option>
+        </select>
+    
+        <button id="btnAcao" onclick="treinarEPrever()" class="botao-redondo">
+            <span class="material-icons">play_arrow</span>
+        </button>
+    
+        <h3 id="status">Status: Aguardando o preenchimento dos campos</h3>
+        <h2 id="resultado"></h2>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

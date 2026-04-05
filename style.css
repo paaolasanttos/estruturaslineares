@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+/* BOTÃO ESTILO APP */
+.botao-redondo {
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    color: #1e293b;
+    font-size: 30px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.botao-redondo:hover {
+    background: white;
+    transform: scale(1.1);
+}
+
+.botao-redondo:active {
+    transform: scale(0.95);
+}
+
+#resultado {
+    margin-top: 15px;
+    color: white;
+}
