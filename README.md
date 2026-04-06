@@ -17,3 +17,5 @@ Foram realizadas as seguintes modificações:
 - **Ajuste do modelo de IA:** treinamento com novos dados relacionados ao gasto calórico.
 - **Cálculo híbrido:** combinação de fórmula baseada em atividade física com ajuste do modelo de IA.
 - **Validações:** implementação de verificações para evitar erros e impedir resultados inválidos (como NaN - valor indefinido).
+
+Acesse o site: https://github.com/paaolasanttos/estruturaslineares
