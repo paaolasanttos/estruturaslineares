@@ -18,4 +18,4 @@ Foram realizadas as seguintes modificações:
 - **Cálculo híbrido:** combinação de fórmula baseada em atividade física com ajuste do modelo de IA.
 - **Validações:** implementação de verificações para evitar erros e impedir resultados inválidos (como NaN - valor indefinido).
 
-Acesse o site: https://github.com/paaolasanttos/estruturaslineares
+Acesse o site: https://paaolasanttos.github.io/estruturaslineares
